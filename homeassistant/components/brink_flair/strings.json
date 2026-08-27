@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Select the Modbus connection the Brink Flair is reached through and its unit address.",
+        "data": {
+          "connection_entry_id": "Modbus connection",
+          "unit_id": "Modbus unit"
+        },
+        "data_description": {
+          "connection_entry_id": "The Modbus connection this Brink Flair is reached through.",
+          "unit_id": "The Brink Flair Modbus station address (default 20)."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Check that the Brink Flair is reachable on the selected connection and unit."
+    }
+  }
+}
