@@ -1,7 +1,7 @@
 {
   "domain": "brink_flair",
   "name": "Brink Flair",
-  "codeowners": ["@your-github-handle"],
+  "codeowners": ["@icecoldfire"],
   "config_flow": true,
   "dependencies": ["modbus_connection"],
   "documentation": "https://www.home-assistant.io/integrations/brink_flair",
